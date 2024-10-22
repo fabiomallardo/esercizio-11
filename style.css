@@ -1,0 +1,58 @@
+/* ESERCIZIO 1: Seleziona l'h1 nella sezione "hero" (jumbotron) */
+.jumbotron h1 {
+    color: red; 
+}
+
+/* ESERCIZIO 2: Seleziona tutti i figli dell'elemento navbar */
+.nav span {
+    color: blue; 
+}
+
+/* ESERCIZIO 3: Seleziona il link "Continua a leggere" del jumbotron */
+.jumbotron .lead a {
+    color: green; 
+}
+
+/* ESERCIZIO 4: Seleziona il primo blog post */
+.blog-main .blog-post:first-of-type {
+    color: orange; 
+}
+
+/* ESERCIZIO 5: Seleziona l'<hr> del primo blog post e coloralo di rosso */
+.blog-main .blog-post:first-of-type hr {
+    border-color: red; 
+}
+
+/* ESERCIZIO 6: Seleziona i link pari della navbar */
+.nav span:nth-child(even) {
+    color: purple; 
+}
+
+/* ESERCIZIO 7: Seleziona tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+.blog-sidebar .list-unstyled li {
+    color: brown; 
+}
+
+/* ESERCIZIO 8: Seleziona l'autore del secondo blog post */
+.blog-main .blog-post:nth-of-type(2) .blog-post-meta a {
+    color: teal; 
+}
+
+/* ESERCIZIO 9: Seleziona il secondo <li> della lista del terzo blog post */
+.blog-main .blog-post:nth-of-type(3) ul li:nth-of-type(2) {
+    color: darkgreen;
+}
+/* ESERCIZIO 10: Seleziona il link "Torna su" a fondo pagina */
+.float-right {
+    color: darkblue; 
+}
+
+/* ESERCIZIO 11: Seleziona il bottone "Nuovi" in basso */
+.blog-pagination a.btn-outline-secondary {
+    color: pink;
+}
+
+/* ESERCIZIO 12: Seleziona il secondo link del footer */
+.blog-footer p a:nth-of-type(2) {
+    color: violet;
+}
